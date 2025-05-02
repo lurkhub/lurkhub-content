@@ -4,7 +4,7 @@ Hi I'm Leslie and I made LurkHub to store my internet bookmarks and other stuff 
 
 Feel free to contact me at [leslielurker@gmail.com](mailto:leslielurker@gmail.com)
 
-# Bookmarks
+## Bookmarks
 Each bookmark item has a title, url and tags. They can be deleted or archived:
 
 ![image](https://github.com/user-attachments/assets/d37259d6-2736-496f-8a8c-8c360f2b875e)
@@ -86,7 +86,7 @@ The bookmark data is stored as a JSON file in the `lurkhub-data` private repo:
 }
 ```
 
-# Articles
+## Articles
 
 Articles lets me store links I want to read later:
 
@@ -94,7 +94,7 @@ Articles lets me store links I want to read later:
 
 
 
-# Feeds
+## Feeds
 
 I've recently created a section for RSS Feeds. It's not a full RSS reader but instead shows a list of subcribed feeds with the most recently updated at the top. It shows the most recent item in the feed which can be clicked to go directly to that item:
 
@@ -104,6 +104,6 @@ Clicking the feed name will display all the feed items:
 ![image](https://github.com/user-attachments/assets/9e347519-34a3-4c66-92ca-3edd8865f9ba)
 
 
-# Posts
+## Posts
 
 LurkHub can let you make posts in markdown format. They are stored in a public `lurkhub-posts` repo on your GitHub account. Any posts you make are viewable at `lurkhub.com/@username`
