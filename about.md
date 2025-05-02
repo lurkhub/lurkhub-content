@@ -1,8 +1,8 @@
 # What is LurkHub?
 
-Hi I'm Leslie and I made LurkHub to store my internet bookmarks and other stuff to help me navigate the web. I like using Git and GitHub so storing them in a repo there felt like a natural fit for me. As I was making it I decided to add a section to store articles I wanted to read later and a section to add RSS feeds. I'm also testing the ability to make public posts. I made this app to scratch an itch I had but you are welcome to use it as well if you wish. Any data you store on LurkHub is stored on your GitHub account. The source code for this app is available here: https://github.com/lurkhub/lurkhub-app
+Hi I'm Leslie and I made LurkHub to store my internet bookmarks and other stuff to help me navigate the web. I like using Git and GitHub so storing them in a repo there felt like a natural fit for me. As I was making it I decided to add a section to store articles I wanted to read later and a section to add RSS feeds. I'm also testing the ability to make public posts. I made this app to scratch an itch I had but you are welcome to use it as well if you wish. Any data you store on LurkHub is stored on your GitHub account. The source code for this app is available [here](https://github.com/lurkhub/lurkhub-app).
 
-Feel free to contact me at [leslielurker@gmail.com](mailto:leslielurker@gmail.com) if you have any questions.
+Feel free to contact me at [leslielurker@gmail.com](mailto:leslielurker@gmail.com)
 
 # Bookmarks
 Each bookmark item has a title, url and tags. They can be deleted or archived:
