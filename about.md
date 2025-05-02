@@ -1,19 +1,19 @@
 # What is LurkHub?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hi I'm Leslie and I made LurkHub to store my internet bookmarks. I like using Git and GitHub so storing them in a repo there felt like a natural fit for me. As I was making it I decided to add a section to store articles I wanted to read later and a section to add RSS feeds. I'm also testing the ability to make public posts. I made this app to scratch an itch I had but you are welcome to use it as well if you wish. Any data you store on LurkHub is stored on your GitHub account.
 
 # Bookmarks
-Testing 123
+Bookmarks 
 
 ![image](https://github.com/user-attachments/assets/d37259d6-2736-496f-8a8c-8c360f2b875e)
 
-Tags
+A bookmark can have tags added which allows them to be filtered with the tag cloud:
 ![image](https://github.com/user-attachments/assets/14f1db53-8cba-4b3b-8aec-4b71305bc4ba)
 
-Code
+The bookmark data is stored as a JSON file in the `lurkhub-data` private repo:
 ![image](https://github.com/user-attachments/assets/3df89fbf-2c44-42fd-9927-0c080f5238d3)
 
-Format
+**Data Format**
 ```json
 {
   "fields": [
@@ -86,7 +86,7 @@ Format
 
 # Articles
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Articles lets me store links I want to read later:
 
 ![image](https://github.com/user-attachments/assets/5b3cdbd8-6e3e-4bdd-b5b7-12359363db13)
 
@@ -94,14 +94,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 # Feeds
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I've recently created a section for RSS Feeds. It's not a full RSS reader but instead shows a list of subcribed feeds with the most recently updated at the top. It shows the most recent item in the feed which can be clicked to go directly to that item:
 
 ![image](https://github.com/user-attachments/assets/c254c684-3302-4956-8d01-4afb56af79cb)
 
-View
+Clicking the feed name will display all the feed items:
 ![image](https://github.com/user-attachments/assets/9e347519-34a3-4c66-92ca-3edd8865f9ba)
 
 
 # Posts
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+LurkHub can let you make posts in markdown format. They are stored in a public `lurkhub-posts` repo on your GitHub account. Any posts you make are viewable at `lurkhub.com/@username`
